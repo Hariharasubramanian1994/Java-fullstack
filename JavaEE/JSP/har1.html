@@ -1,0 +1,8 @@
+<%@ page session="false"%>
+
+    <body bgcolor="white">
+        <jsp:useBean id="hari" scope="page" class="hd.myclass" type="hd.myclass" />
+        <h1>Hari method is
+            <jsp:getProperty name="hari" property="name" />
+        </h1>
+    </body>
