@@ -1,0 +1,10 @@
+
+public class Ham {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "ham";
+		System.out.println(str);
+	}
+
+}
